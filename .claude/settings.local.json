@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac -version)",
+      "Bash(javac -d out -sourcepath src src/Main.java src/model/Funcionario.java src/model/Gerente.java src/service/FuncionarioService.java src/exception/FuncionarioException.java)"
+    ]
+  }
+}
