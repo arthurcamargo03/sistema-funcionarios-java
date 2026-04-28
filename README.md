@@ -14,9 +14,38 @@ Aplicação Java de console para gerenciamento de funcionários e gerentes, dese
 
 ## 🛠️ Tecnologias
 
-- **Java 17**
 - Programação Orientada a Objetos (Herança, Encapsulamento, Polimorfismo)
 - Tratamento de exceções customizadas
 - Coleções (ArrayList)
 
 ## 📁 Estrutura
+
+sistema-funcionarios-java/
+├── src/
+│   ├── exception/
+│   ├── model/
+│   ├── service/
+│   └── Main.java
+├── .gitignore
+└── README.md
+
+## 🧠 Conceitos aplicados
+
+- **Encapsulamento:** atributos privados acessados via getters/setters
+- **Herança:** classe `Gerente` estende `Funcionario`
+- **Polimorfismo:** sobrescrita do método `toString()`
+- **Validações:** uso de exceções customizadas (`FuncionarioException`)
+- **Separação de responsabilidades:** camadas `model`, `service` e `exception`
+
+## ▶️ Como executar
+
+```bash
+javac -d bin src/**/*.java src/Main.java
+java -cp bin Main
+```
+
+## 👤 Autor
+
+**Arthur Pereira Camargo**  
+Estudante de Engenharia de Software – PUC-PR  
+[LinkedIn](https://www.linkedin.com/in/arthurcamargo03/)
