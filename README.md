@@ -22,7 +22,7 @@ Aplicação Java de console para gerenciamento de funcionários e gerentes, dese
 
 sistema-funcionarios-java/
 ├── src/
-│   ├── exception/
+│   ├── model.exception/
 │   ├── model/
 │   ├── service/
 │   └── Main.java
@@ -35,7 +35,7 @@ sistema-funcionarios-java/
 - **Herança:** classe `Gerente` estende `Funcionario`
 - **Polimorfismo:** sobrescrita do método `toString()`
 - **Validações:** uso de exceções customizadas (`FuncionarioException`)
-- **Separação de responsabilidades:** camadas `model`, `service` e `exception`
+- **Separação de responsabilidades:** camadas `model`, `service` e `model.exception`
 
 ## ▶️ Como executar
 

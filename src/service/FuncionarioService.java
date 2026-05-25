@@ -1,7 +1,7 @@
 package service;
 
 import model.Funcionario;
-import exception.FuncionarioException;
+import model.exception.FuncionarioException;
 import java.util.ArrayList;
 import java.util.List;
 

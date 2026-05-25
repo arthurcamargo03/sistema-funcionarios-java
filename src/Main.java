@@ -1,7 +1,7 @@
 import model.Funcionario;
 import model.Gerente;
 import service.FuncionarioService;
-import exception.FuncionarioException;
+import model.exception.FuncionarioException;
 import java.util.Scanner;
 
 public class Main {
